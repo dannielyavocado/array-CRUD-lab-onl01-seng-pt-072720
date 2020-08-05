@@ -1,20 +1,23 @@
-def create_an_empty_array
+def create_an_empty_array []
   
 end
 
-def create_an_array
+def create_an_array ["avocado", "cilantro", "onion", "tomatoes"]
   
 end
 
 def add_element_to_end_of_array(array, element)
+  add_element_to_end_of_array << "adding"
   
 end
 
 def add_element_to_start_of_array(array, element)
+  add_element_to_start_of_array.unshift = "start" 
   
 end
 
 def remove_element_from_end_of_array(array)
+  remove_element_from_end_of_array.pop
   
 end
 
